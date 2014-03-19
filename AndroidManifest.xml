@@ -26,6 +26,14 @@
             android:name="com.example.shootingstar.SeconDACTIVITY"
             android:label="@string/title_activity_secon_dactivity" >
         </activity>
+        <activity
+            android:name="com.example.shootingstar.GameActivity"
+            android:label="@string/title_activity_game"
+            android:parentActivityName="com.example.shootingstar.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.shootingstar.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
